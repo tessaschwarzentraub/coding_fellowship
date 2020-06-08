@@ -74,4 +74,20 @@ img {
   color: lightblue;
 }
 
-  
+
+
+
+/*beginning of page content, grid format*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px 300px 500px;
+  grid-gap: 50px 100px; 
+}
+
+.grid-item {
+  background-color: lightblue;
+}
+
+.item1 {
+  grid-area: 1 / 4;
+}
