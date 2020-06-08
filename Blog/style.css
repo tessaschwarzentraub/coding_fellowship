@@ -12,6 +12,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     font-family: 'Tajawal', sans-serif;
+    height: 90px;
 }
 img {
     height: 500px;
