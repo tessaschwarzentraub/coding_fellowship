@@ -41,7 +41,7 @@ img {
     background-color: transparent;
     overflow: visible;
     position: relative;
-    display: inline-block;
+    display: flex;
   }
   
   /* Dropdown Content (Hidden by Default) */
