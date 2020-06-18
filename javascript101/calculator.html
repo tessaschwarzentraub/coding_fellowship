@@ -5,10 +5,10 @@
          <table>
             <tr>
                <td colspan="4">
-                  <input type="text" name="display" id="display" disabled>
+                  <input type="text" name="display" id="display" disabled> <!--"disabled" makes buttons the only way users can input items into the display, i.e. they are not able to type numbers in display box-->
                </td>
             </tr>
-            <tr>
+            <tr> <!--on click attribute determines what is run when a button is clicked (in javascript)-->
                <td><input type="button" name="one" value="1" onclick="calculator.display.value += '1'"></td>
                <td><input type="button" name="two" value="2" onclick="calculator.display.value += '2'"></td>
                <td><input type="button" name="three" value="3" onclick="calculator.display.value += '3'"></td>
@@ -24,7 +24,7 @@
                <td><input type="button" name="seven" value="7" onclick="calculator.display.value += '7'"></td>
                <td><input type="button" name="eight" value="8" onclick="calculator.display.value += '8'"></td>
                <td><input type="button" name="nine" value="9" onclick="calculator.display.value += '9'"></td>
-               <td><input type="button" class="operator" name="times" value="x" onclick="calculator.display.value += '*'"></td>
+               <td><input type="button" class="operator" name="times" value="x" onclick="calculator.display.value += '*'"></td> <!--equals button is different because it is telling javascript to evaluate what was entered-->
             </tr>
             <tr>
                <td><input type="button" id="clear" name="clear" value="c" onclick="calculator.display.value = ''"></td>

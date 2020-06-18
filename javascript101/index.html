@@ -1,30 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-        <script src="hello.js"></script>
-    </head>
+    <script src="hello.js"></script>
+</head>
+
 <body>
-    <div class="grid">
-        <div class="output">
-            <div class="previous-operand"></div>
-            <div class="current-operand"></div>
+    <!--Build front end of calculator
+    2 boxeds that accept input from the users
+    a drop down menu with the math operators
+    submit button
+    !!!!space for the answer to be printed-->
+    <form name="calculator">
+        <input type="text" name="num1" id="num1">
+        <select id="math" name="math">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">x</option>
+            <option value="divide">÷</option>
+        </select>
+        <input type="text" name="num2" id="num2">
+        <input type="button" name = "submit" value= "Submit" onclick = "doMath()">
+        </form>
+
+        <div style= "background-color:blueviolet">
+            <h2 id="printResult"></h2>
         </div>
-        <button class="span-two">AC</button>
-        <button>DEL</button> 
-        <button>÷</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>-</button>
-        <button>.</button>
-        <button>0</button>
-        <button class="span-two">=</button>
-    </div>
 </body>
-</html>
