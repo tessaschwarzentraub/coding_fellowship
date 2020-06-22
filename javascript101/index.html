@@ -3,24 +3,19 @@
 </head>
 
 <body>
-    <!--Build front end of calculator
-    2 boxeds that accept input from the users
-    a drop down menu with the math operators
-    submit button
-    !!!!space for the answer to be printed-->
-    <form name="calculator">
-        <input type="text" name="num1" id="num1">
+    <form>
+        <input type="text" id="num1" name="num2"> 
         <select id="math" name="math">
-            <option value="add">+</option>
-            <option value="subtract">-</option>
-            <option value="multiply">x</option>
-            <option value="divide">÷</option>
+            <option id="add">+</option>
+            <option id="subtract">-</option>
+            <option id="divide">÷</option>
+            <option id="multiply">x</option>
         </select>
-        <input type="text" name="num2" id="num2">
-        <input type="button" name = "submit" value= "Submit" onclick = "doMath()">
-        </form>
+        <input type="text" id="num2" name="num2">
+        <input type="button" id="submit" name="submit" value="submit" onclick="doMath()">
+    </form>
 
-        <div style= "background-color:blueviolet">
-            <h2 id="printResult"></h2>
-        </div>
+    <div style="background-color: cornflowerblue;">
+        <h2 id="printResults"></h2>
+    </div>
 </body>
