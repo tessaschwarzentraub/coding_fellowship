@@ -104,4 +104,33 @@
   padding: 10px;
 }
 
-.individualicon:hover {color: gray;}
+.individualicon:hover {
+  color: gray;
+}
+
+
+/*portfolio button div*/
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  width: 100%;
+}
+.portfolio_btn {
+  background-color: #F5F5F5;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 30px;
+  border-radius: 5%;
+  letter-spacing: 2px;
+}
+.portfolio_btn:hover {
+  height: 75px;
+  width: 225px;
+  opacity: 50%;
+}
