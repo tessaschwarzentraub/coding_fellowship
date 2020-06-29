@@ -3,43 +3,79 @@
 <head>
     <link rel="stylesheet" href="portfolio.css" />
     <script src="https://kit.fontawesome.com/b5fb9a944d.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">
     <title>tessaschwarzentraub</title>
 </head>
-<body style="background-color: #F9F9F9;">
-    <!--eventually create curtain menu-->
-    <div class="navbar">
-        <a href="#about">ABOUT</a>
-        <a href="#resume">RESUME</a>
-        <div class="dropdown">
-          <button class="dropbtn">PROJECTS</button>
-          <div class="dropdown-content">
-            <a href="tribute_page">tribute page</a>
-            <a href="survey_form">survey form</a>
-            <a href="product_landing_page">product landing page</a>
-            <a href="technical_documentation_page">technical documentation page</a>
-            <a href="personal_portfolio_webpage">personal portfolio webpage</a>
-          </div>
+<body>
+    <div style="background-image: url('portfoliopicture.jpeg'); background-repeat: no-repeat; background-size: cover; height: 700px; visibility: 50%;">
+        <div class="navbar">
+            <a href="#about" style="padding: 10px; text-decoration: none;">About</a>
+            <a href="#resume" style="padding: 10px; text-decoration: none;">Resume</a>
+            <div class="dropdown">
+                <button class="dropbtn" style="padding: 10px; background-color: inherit;">Projects</button>
+                <div class="dropdown-content">
+                <a href="tribute_page">tribute page</a>
+                <a href="survey_form">survey form</a>
+                <a href="product_landing_page">product landing page</a>
+                <a href="technical_documentation_page">technical documentation page</a>
+                <a href="personal_portfolio_webpage">personal portfolio webpage</a>
+                </div>
+            </div>
+            <div class="icon2">
+                <div class="individualicon"><a href="https://www.instagram.com/tessaschwarzentraub/?hl=en"><i class="fab fa-instagram"></i></a></div>
+                <div class="individualicon"><a href="https://twitter.com/tesssa18"><i class="fab fa-twitter"></i></a></div>
+                <div class="individualicon"><a href="https://www.facebook.com/search/top/?q=tessa%20schwarzentraub"><i class="fab fa-facebook-square"></i></a></div>
+                <div class="individualicon"><a><i class="far fa-envelope"></i></a></div> <!--still need to link this to a popup email-->
+            </div>
         </div>
     </div>
-    <div class="section1">
-        <div><p class="name">tessa schwarzentraub</p></div>
-        <div class="picture_wrap">
-            <img class="picture"src="portfoliopicture.jpeg">
-            <p class="picture_description">portfolio</p>
-        </div>
-        <div class="icon">
-            <div class="individualicon"><a href="https://www.instagram.com/tessaschwarzentraub/?hl=en" style="color:black"><i class="fab fa-instagram"></i></a></div>
-            <div class="individualicon"><a href="https://twitter.com/tesssa18" style="color:black"><i class="fab fa-twitter"></i></a></div>
-            <div class="individualicon"><a href="https://www.facebook.com/search/top/?q=tessa%20schwarzentraub" style="color:black"><i class="fab fa-facebook-square"></i></a></div>
-            <div class="individualicon"><a><i class="far fa-envelope"></i></a></div> <!--still need to link this to a popup email-->
-        </div>
+    <div id="about" class="about">
+        <h1> a little about me</h1>
+        <p style="font-family: 'Montserrat', sans-serif; line-height: 30px;">I am a student at Southern Illinois University Edwardsville, studying marketing and german with potential focuses in sociology and psychology.
+            I have recently been introduced to the tech industry during my time as a coding fellow at Less Annoying CRM, a small start-up in St. Louis, MO. 
+            The fellowship program at LACRM allowed me to explore front-end development, web design, and UI/UX design- as well as simply obtaining a better understanding 
+            of the tech industry in general. 
+        </p>
     </div>
     <div class="portfolio">
         <div class="portfolio_btn">Web Development</div>
         <div class="portfolio_btn">Web Design</div>
         <div class="portfolio_btn">User Experience</div>
     </div>
-
+    <div class="resume">
+        <div class="section">
+            <div>
+                <h2>Personal Information</h2>
+                    <p>Name: Tessa Schwarzentraub</p>
+                    <p>Email: tlschwarzentraub@gmail.com</p>
+                    <p>LinkedIn:<a href="https://www.linkedin.com/in/tessa-schwarzentraub-16928b195/">tessa-schwarzentraub</a> </p>
+            </div>
+            <div>
+                <h2>Languages</h2>
+                    <p>English</p>
+                    <p>...............native</p>
+                    <p>German</p>
+                    <p>...............fluent</p>
+            </div>
+        </div>
+        <div class="section">
+            <div>
+                <h2>Professional Skills</h2>
+                    <p>HMTL5</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>Figma</p>
+                    <p>Webflow</p>
+            </div>
+            <div>
+                <h2>Soft Skills</h2>
+                    <p>Communication</p>
+                    <p>Problem Solving</p>
+                    <p>Embrace Change</p>
+                    <p>Thrive with collaboration</p>
+                    <p>Organized</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
