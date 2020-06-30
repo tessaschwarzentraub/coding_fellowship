@@ -155,3 +155,17 @@
   display: inline-block;
   margin: 10px;
 }
+
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 250px;
+  height: 15px;
+  margin: 15px;
+}
+progress::-webkit-progress-bar {
+  background-color: #DFDFDF;
+}
+progress::-webkit-progress-value {
+  background-color: #FFE5E5;
+}
