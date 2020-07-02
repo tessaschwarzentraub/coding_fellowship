@@ -171,10 +171,6 @@ progress::-webkit-progress-value {
 
 
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 200px);
-}
 .contactbar {
   background-color: gray;
   color: white;
