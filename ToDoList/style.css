@@ -20,6 +20,7 @@ h1 {
 form {
     background-color: #fff;
     padding: 15px;
+    border-radius: 10px;
 }
 input [type="text"] {
     width: 310px;
@@ -38,8 +39,10 @@ button {
     border: none;
     width: 50px;
 }
+button:hover {color: #ff6161;}
 .tasksBoard {
     background-color: #fff;
+    border-radius: 10px;
     margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -63,6 +66,7 @@ a {
     font-size: 1.2em;
     cursor: pointer;
 }
+a:hover {color: #53bdff;}
 .delete {
     background-color: #ff6161;
     padding: 0px 3px 0px 3px;
