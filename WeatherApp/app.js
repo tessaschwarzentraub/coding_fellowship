@@ -28,11 +28,5 @@ window.addEventListener('load', ()=> {                  //get the location after
                     locationTimezone.textContent = data.name;
                 });
         });
-    
-    let skycons = new Skycons ({"color" : "white"});
-    skycons.add("icon1", Skycons.PARTLY_CLOUDY_DAY);
-    skycons.play();
-
-    }
-    
+    }   
 });

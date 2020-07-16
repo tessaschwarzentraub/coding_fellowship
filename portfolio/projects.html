@@ -2,26 +2,68 @@
 <html>
     <head>
         <style>
-            body {
+            .projectSection {
                 display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: flex-end;
             }
-            div {
-                height: 100px;
-                width: 100px;
-                background-color: blue;
-                margin: 10px;
-                display: flex;
+            .project {
+                margin-top: 30px;
+            }
+            img {
+                height: 300px;
+                width: 400px;
+                object-fit: contain;
+                cursor: pointer;
+            }
+            img:hover {opacity: 70%;}
+            h1,
+            p {
+                font-family: 'Montserrat', sans-serif;
+                text-align: center;
             }
         </style>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Projects</h1>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <h1>Here are some of my projects:</h1>
+        <div class="projectSection">
+            <div class="project">
+                <img src="Screen Shot 2020-07-16 at 1.05.29 PM.png">
+                <a href=""></a>
+                <p>JS Weather App</p>
+            </div>
+            <div class="project">
+                <img src="Screen Shot 2020-07-16 at 1.06.27 PM.png">
+                <p>JS To-Do List</p>
+                <a href=""></a>
+            </div>
+            <div>
+                <img src="Screen Shot 2020-07-16 at 1.11.18 PM.png">
+                <p>JS Calculator</p>
+                <a href=""></a>
+            </div>
+            <div class="project">
+                <a href="https://codepen.io/tessaschwarzentraub/full/BajoLmN"><img src="Screen Shot 2020-07-16 at 11.36.44 AM.png"></a>
+                <p>Tribute Page</p>
+            </div>
+            <div class="project">
+                <a href="https://codepen.io/tessaschwarzentraub/full/QWyjggP"><img src="Screen Shot 2020-07-16 at 11.38.55 AM.png"></a>
+                <p>Survery Form</p>
+            </div>
+            <div class="project">
+                <a href="https://codepen.io/tessaschwarzentraub/full/KKVmGXx"><img src="Screen Shot 2020-07-16 at 11.43.39 AM.png"></a>
+                <p>Product Landing Page</p>
+            </div> 
+            <div class="project">
+                <a href="https://codepen.io/tessaschwarzentraub/full/KKVqVdM"><img src="Screen Shot 2020-07-16 at 11.44.57 AM.png"></a>
+                <p>Technical Documentation Page</p>
+            </div>
+            <div class="project">
+                <a href="https://codepen.io/tessaschwarzentraub/full/OJMgoVY"><img src="Screen Shot 2020-07-16 at 11.45.46 AM.png"></a>
+                <p>Personal Webpage</p>
+            </div>
+        </div>   
     </body>
 </html>
