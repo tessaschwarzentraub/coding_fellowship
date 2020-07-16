@@ -4,7 +4,6 @@ window.addEventListener('load', ()=> {                  //get the location after
     let temperatureDescripton = document.querySelector(".temperature-description");
     let temperatureDegree = document.querySelector(".temperature-degree");
     let locationTimezone = document.querySelector(".location-timezone"); 
-    let skycons = document.querySelector(".icon");   
 
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(position => {
@@ -28,5 +27,6 @@ window.addEventListener('load', ()=> {                  //get the location after
                     locationTimezone.textContent = data.name;
                 });
         });
-    }   
+    }  
+    
 });
