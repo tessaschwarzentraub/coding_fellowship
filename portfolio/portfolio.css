@@ -7,7 +7,6 @@
     float: left;
     font-size: 16px;
     color: white;
-    //*padding: 10px;*//
     text-decoration: none;
   }
   .dropdown {
@@ -18,7 +17,6 @@
     font-size: 16px;
     color: white;
     border: none;
-    //*padding: 10px;*//
     background-color: inherit;
     font-family: 'Roboto Mono', monospace;
     margin: 0; 
@@ -62,6 +60,8 @@
     margin-right: 10px;
   }
   .individualicon:hover {color: #FFCACA}
+
+/*About section*/
 
 .about {
   margin: 200px 300px 100px 300px;
