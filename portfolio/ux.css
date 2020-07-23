@@ -48,7 +48,9 @@
     display: block;
   }
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: 'Roboto Mono', monospace;
     font-weight: lighter;
 }
@@ -91,3 +93,41 @@ p {
 }
 .moreInfoLink {color: black;}
 .moreInfoLink:hover {color: #DFDFDF}
+
+.myProcessTitle {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+hr {
+  /*transform: rotate(90deg);*/
+  width: 40%;
+  height: 1px;
+  background-color: black;
+  margin-top: 40px;
+}
+.stepOne {
+  margin-top: 100px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+.stepTwo {
+  margin-top: 100px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+img {
+  border-radius: 100%;
+}
+.personas {
+  margin-top: 100px;
+  margin-left: none;
+  margin-right: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.individualPersonas {
+  text-align: center;
+  width: 30%;
+}
+
