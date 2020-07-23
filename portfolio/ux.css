@@ -130,4 +130,35 @@ img {
   text-align: center;
   width: 30%;
 }
-
+.lastSection {
+  background-color: #DFDFDF;
+}
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    line-height: 40px;
+}
+.designChanges {
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-bottom: 100px;
+}
+.footer {
+  background-color: #FFE5E5;
+  height: 300px;
+  color: gray;
+  text-align: center;
+}
+.icon3 {
+  display: flex;
+  flex-direction: row;
+  float: center;
+  padding: 50px;
+  padding-left: 660px;
+  color: gray;
+  text-decoration: none;
+}
+.individualicon3 {
+  margin-right: 10px;
+}
