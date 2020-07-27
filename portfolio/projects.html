@@ -56,6 +56,7 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 text-align: center;
+                margin-bottom: 150px;
             }
             .project {
                 margin-top: 30px;
@@ -73,21 +74,40 @@
                 font-family: 'Montserrat', sans-serif;
                 text-align: center;
             }
+            .footer {
+                background-color: #FFE5E5;
+                height: 300px;
+                color: gray;
+                text-align: center;
+            }
+            .icon3 {
+                display: flex;
+                flex-direction: row;
+                float: center;
+                padding: 50px;
+                padding-left: 660px;
+                color: gray;
+                text-decoration: none;
+            }
+            .individualicon3 {
+                margin-right: 10px;
+            }
         </style>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">
     </head>
     <body style="margin: 0; width: 100%;">
         <div class="navbar">
-            <a href="#about" style="padding: 10px; text-decoration: none;">About</a>
+            <a href="index.html" style="padding: 10px; text-decoration: none;">Home</a>
             <a href="#resume" style="padding: 10px; text-decoration: none;">Resume</a>
             <div class="dropdown">
-                <button class="dropbtn" style="padding: 10px; background-color: inherit;">Projects</button>
+                <button class="dropbtn" style="padding: 10px; background-color: inherit;">Work</button>
                 <div class="dropdown-content">
-                <a href="portfolio/projects.html" style="text-decoration: none;">web development</a>
-                <a href="portfolio/design.html" style="text-decoration: none;">web design</a>
-                <a href="portfolio/ux.html" style="text-decoration: none;">user experience</a>
+                <a href="projects.html" style="text-decoration: none;">projects</a>
+                <a href="portfolio/design.html" style="text-decoration: none;">progress</a>
+                <a href="ux.html" style="text-decoration: none;">user experience</a>
                 </div>
             </div>
+            <a href="contact.html" style="padding: 10px; text-decoration: none;">Contact</a>
         </div>
         <h1>Here are some of my projects:</h1>
         <div class="projectSection">
@@ -123,6 +143,16 @@
                 <a href="https://codepen.io/tessaschwarzentraub/full/OJMgoVY"><img src="Screen Shot 2020-07-16 at 11.45.46 AM.png"></a>
                 <p>Personal Webpage</p>
             </div>
-        </div>   
+        </div> 
+        <div class="footer">
+            <div class="icon3">
+                <div class="individualicon3"><a href="https://www.instagram.com/tessaschwarzentraub/?hl=en" style="color: gray;"><i class="fab fa-instagram"></i></a></div>
+                <div class="individualicon3"><a href="https://twitter.com/tesssa18" style="color: gray;"><i class="fab fa-twitter"></i></a></div>
+                <div class="individualicon3"><a href="https://www.facebook.com/search/top/?q=tessa%20schwarzentraub" style="color: gray;"><i class="fab fa-facebook-square"></i></a></div>
+                <div class="individualicon3"><a href="mailto:tlschwarzentraub@gmail.com" style="color: gray;"><i class="far fa-envelope"></i></a></div>
+            </div>
+            <p>Tessa Schwarzentraub</p>
+            <p>tlschwarzentraub@gmail.com</p>
+        </div>  
     </body>
 </html>
