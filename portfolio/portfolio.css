@@ -85,6 +85,21 @@
   font-size: 25px;
   letter-spacing: 5px;
 }
+.buttonPosition {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  border: white;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 275px;
+  opacity: 70%;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}
+.button:hover {opacity: 100%;}
 
 /*About section*/
 
