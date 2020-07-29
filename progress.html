@@ -4,9 +4,22 @@
         <script src="https://kit.fontawesome.com/b5fb9a944d.js" crossorigin="anonymous"></script>
         <link href="progress.css" rel="stylesheet">
     </head>
-    <body>
-        <div class="container">
-            <div class="slide">
+    <body style="margin: 0; width: 100%;">
+        <div class="navbar">
+            <a href="index.html" style="padding: 10px; text-decoration: none;">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn" style="padding: 10px; background-color: inherit;">Work</button>
+                <div class="dropdown-content">
+                <a href="projects.html" style="text-decoration: none;">projects</a>
+                <a href="progress.html" style="text-decoration: none;">progress</a>
+                <a href="ux.html" style="text-decoration: none;">user experience</a>
+                </div>
+            </div>
+            <a href="contact.html" style="padding: 10px; text-decoration: none;">Contact</a>
+        </div>
+        <div class="bigContainer">
+            <div><button id="prevBtn">Previous</button></div>
+            <div class="container"><div class="slide">
                 <img src="progress_photos/Webp.net-resizeimage9.png" id="lastClone"alt="">
                 <img src="progress_photos/Webp.net-resizeimage1.png" alt="">
                 <img src="progress_photos/Webp.net-resizeimage copy2.png" alt="">
@@ -18,10 +31,21 @@
                 <img src="progress_photos/Webp.net-resizeimage8.png" alt="">
                 <img src="progress_photos/Webp.net-resizeimage9.png" alt="">
                 <img src="progress_photos/Webp.net-resizeimage1.png" id="firstClone"alt="">
-            </div>
+            </div></div>
+            <div><button id="nextBtn">Next</button></div>
         </div>
-        <button id="prevBtn">Previous</button>
-        <button id="nextBtn">Next</button>
+        
+        
+        <div class="footer">
+            <div class="icon3">
+                <div class="individualicon3"><a href="https://www.instagram.com/tessaschwarzentraub/?hl=en" style="color: gray;"><i class="fab fa-instagram"></i></a></div>
+                <div class="individualicon3"><a href="https://twitter.com/tesssa18" style="color: gray;"><i class="fab fa-twitter"></i></a></div>
+                <div class="individualicon3"><a href="https://www.facebook.com/search/top/?q=tessa%20schwarzentraub" style="color: gray;"><i class="fab fa-facebook-square"></i></a></div>
+                <div class="individualicon3"><a href="mailto:tlschwarzentraub@gmail.com" style="color: gray;"><i class="far fa-envelope"></i></a></div>
+            </div>
+            <p>Tessa Schwarzentraub</p>
+            <p>tlschwarzentraub@gmail.com</p>
+        </div>  
         <script src="progress.js"></script>
     </body>
 </html>
