@@ -101,6 +101,10 @@ h2 {
     font-size: 14px;
     height: 30px;
 }
+.grid-control input:valid {
+  border: 1px solid green;
+}
+
 .grid-control i{
     position: absolute;
     top: 30px;

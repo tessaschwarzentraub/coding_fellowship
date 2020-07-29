@@ -7,8 +7,7 @@
     </head>
     <body>
         <div class="navbar">
-            <a href="#about" style="padding: 10px; text-decoration: none;">Home</a>
-            <a href="#resume" style="padding: 10px; text-decoration: none;">Resume</a>
+            <a href="index.html" style="padding: 10px; text-decoration: none;">Home</a>
             <div class="dropdown">
                 <button class="dropbtn" style="padding: 10px; background-color: inherit; color: black;">Work</button>
                 <div class="dropdown-content">
@@ -20,34 +19,34 @@
         </div>
         <h2>Get In Touch!</h2>
         <div class="container">
-            <form class="grid">
+            <form class="grid" id="form">
                 <div class="grid-control">
                     <label>First Name:</label>
-                    <input type="text" placeholder="First Name" id="firstName">
+                    <input type="text" placeholder="First Name" id="firstname" required>
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
                 </div>
                 <div class="grid-control">
                     <label>Last Name:</label>
-                    <input type="text" placeholder="Last Name" id="lastName">
+                    <input type="text" placeholder="Last Name" id="lastname" required>
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
                 </div>
                 <div class="grid-control">
                     <label>Phone Number:</label>
-                    <input type="text" placeholder="888-888-8888" id="phoneNumber">
+                    <input type="number" placeholder="(888)888-8888" id="phonenumber" required>
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
                 </div>
                 <div class="grid-control">
                     <label>Email:</label>
-                    <input type="text" placeholder="email@email.com" id="email">
+                    <input type="email" placeholder="email@email.com" id="email" required>
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
                 </div>
                 <div class="grid-control" id="Message">
                     <label>Message:</label>
-                    <input type="text" placeholder="Type your message here..." id="message">
+                    <input type="text" placeholder="Type your message here..." id="message" required>
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
                 </div>
@@ -64,5 +63,6 @@
             <p>Tessa Schwarzentraub</p>
             <p>tlschwarzentraub@gmail.com</p>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
