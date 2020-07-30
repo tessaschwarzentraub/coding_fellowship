@@ -42,3 +42,12 @@ slide.addEventListener('transitionend', ()=>{
         slide.style.transform = 'translateX(' + (-size * counter) + 'px)';
     }
 });
+
+
+function unhide(resources1) {
+    var item = document.getElementById('resources1');
+
+    if(item) {
+        item.className = (item.className == 'hidden')?'unhidden':'hidden';
+    }
+}

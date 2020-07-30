@@ -84,6 +84,30 @@ button {
     font-weight: lighter;
 }
 button:hover {opacity: 100%;}
+.resources {
+    text-align: center;
+    margin-bottom: 200px;
+}
+.toggle {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 25px;
+}
+.toggle:hover{font-weight: bolder;}
+.hidden {
+    display: none;
+}
+.unhidden {
+    display: block;
+}
+.links {
+    color: gray;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
 
 /* footer */
 .footer {
