@@ -62,7 +62,7 @@
   .individualicon:hover {color: #FFCACA}
 
   .title {
-    color: white;
+    color: rgb(228, 228, 228);
     text-align: center;
     padding-top: 100px;
     font-family: 'Roboto Mono', monospace;
@@ -79,7 +79,7 @@
     opacity: 1;
   }
 .subtitle {
-  color: white;
+  color: rgb(190, 190, 190);
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
@@ -104,7 +104,7 @@
 /*About section*/
 
 .about {
-  margin: 200px 300px 100px 300px;
+  margin: 200px 350px 100px 350px;
   font-family: 'Roboto Mono', monospace;
 }
 
