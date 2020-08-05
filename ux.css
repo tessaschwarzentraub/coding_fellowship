@@ -133,6 +133,12 @@ img {
 .lastSection {
   background-color: #eeeeee;
 }
+.uiList {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-left: 450px;
+  margin-right: 400px;
+}
 li {
     font-family: 'Montserrat', sans-serif;
     font-size: large;
